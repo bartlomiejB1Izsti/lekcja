@@ -18,14 +18,14 @@ nav ul li a {
     font-weight: bold;
 }
 
-#sekcja1 {
+.sekcja1 {
     background-color: red;
     color: white;
     padding: 20px;
     margin-top: 20px;
 }
 
-#sekcja2 {
+.sekcja2 {
     background-color: yellow;
     color: black;
     padding: 20px;
