@@ -3,16 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spuchokontakt</title>
+    <title>Formularz kontaktowy</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <section class="sekcja1">
-        <h2>Sekcja 1</h2>
-        <p>To jest pierwsza sekcja.</p>
-      </section>
-      <section class="sekcja2">
-        <h2>Sekcja 2</h2>
-        <p>To jest druga sekcja.</p>
-      </section>
+    <h2>Formularz kontaktowy</h2>
+    <form action="index.php" method="POST">
+        <label for="name">Imię:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Adres e-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Wiadomość:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Wyślij">
+    </form>
 </body>
 </html>
